@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            height: 900px;
+            width: 100%;
+        }
+        
+        .heading img {
+            height: 900px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .containt-1 {
+            font-size: 70px;
+        }
+        
+        .A {
+            color: blue;
+            position: absolute;
+            top: 5%;
+        }
+        
+        p {
+            color: purple;
+            font-size: 30px;
+            position: absolute;
+            top: 60%;
+        }
+        
+        button {
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            top: 85%;
+            background-color: blue;
+        }
+        
+        .containt-2 {
+            height: 700px;
+            width: 100%;
+        }
+        
+        h4 {
+            color: blue;
+            text-align: center;
+        }
+        
+        .B {
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .image {
+            position: absolute;
+            top: 150%;
+            margin-left: 22%;
+        }
+        
+        .image img {
+            padding: 10px 20px;
+        }
+        
+        .logo {
+            height: 40px;
+            width: 30%;
+            margin-top: 0px;
+        }
+        
+        .menu {
+            height: 70px;
+            width: 98%;
+            margin-top: 160px;
+            color: dark black;
+            font-size: 30px;
+        }
+        
+        a {
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            padding: 10px 20px;
+            line-height: 50px;
+            position: sticky;
+        }
+        
+        li {
+            list-style: none;
+            float: left;
+            padding: 10px 20px;
+            line-height: 50px;
+            cursor: pointer;
+        }
+        
+        li:hover {
+            background-color: blue;
+            color: white;
+        }
+        
+        @media (min-width:480px) {
+            .heading {
+                height: 700px;
+                width: 100%;
+            }
+            .heading img {
+                height: 500px;
+                width: 80%;
+                position: relative;
+                margin-left: 25%;
+            }
+            .containt-1 {
+                font-size: 30px;
+            }
+            .A {
+                color: blue;
+                position: absolute;
+                top: 80%;
+            }
+            p {
+                color: purple;
+                font-size: 10px;
+                position: absolute;
+                top: 100%;
+            }
+            button {
+                color: white;
+                font-size: 30px;
+                position: absolute;
+                top: 120%;
+                background-color: blue;
+            }
+            .containt-2 {
+                height: 500px;
+                width: 100%;
+            }
+            h4 {
+                color: blue;
+                text-align: center;
+                top: 125%;
+            }
+            .B {
+                font-size: 30px;
+            }
+            .image {
+                height: auto;
+                width: 50%;
+                position: absolute;
+                top: 180%;
+            }
+            .image img {
+                padding: 10px 20px;
+                width: 80%;
+            }
+            .logo {
+                height: 40px;
+                width: 30%;
+                margin-top: 0px;
+            }
+            .menu {
+                height: 70px;
+                width: 98%;
+                margin-top: 160px;
+                color: dark black;
+                font-size: 30px;
+            }
+            a {
+                list-style: none;
+                text-decoration: none;
+                float: left;
+                padding: 10px 20px;
+                line-height: 50px;
+                position: sticky;
+            }
+            li {
+                list-style: none;
+                float: left;
+                padding: 10px 20px;
+                line-height: 50px;
+                cursor: pointer;
+            }
+            li:hover {
+                background-color: blue;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="https://www.360kovai.com/business_pic/1683.png" alt="">
+    </div>
+
+    <ul class="menu">
+        <a href="/beauty_parlour.html">HOME</a>
+        <a href="">SERVICES</a>
+        <a href="">BRIDAL</a>
+        <a href="">COURSE</a>
+        <a href="">FIX AN APPOINTMENT</a>
+        <a href="">CONTACT US</a>
+    </ul>
+
+    <div class="heading">
+        <img src="data:image/jpeg;base64,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">
+    </div>
+    <div class="containt-1">
+        <h2 class="A">spa & beauty
+            <br> center</h2>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing
+            <br> Repellendus quam fuga voluptatibus quia numquam
+            <br> exercitationem reprehenderit voluptas provident est
+            <br> expedita, aliquid amet aliquam omnis similique maxime
+            <br> et inventore sequi obcaecati.
+        </p>
+        <button>BOOK NOW</button>
+    </div>
+    <div class="containt-2">
+        <h4>Beauty Tips In Our Services</h4>
+        <h2 class="B">our services</h2>
+    </div>
+    <div class="image">
+        <img src="ph-2.png" alt="">
+        <img src="ph-1.png" alt="">
+    </div>
+</body>
+
+</html>

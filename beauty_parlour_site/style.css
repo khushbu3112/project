@@ -1,0 +1,297 @@
+.logo {
+    height: 40px;
+    width: 30%;
+    margin-top: 0px;
+}
+
+.menu {
+    height: 70px;
+    width: 98%;
+    margin-top: 160px;
+    color: dark black;
+    font-size: 30px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    padding: 10px 20px;
+    line-height: 50px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: blue;
+    color: white;
+}
+
+.image1 {
+    height: 500px;
+    width: 100%;
+}
+
+.image1 img {
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main {
+    height: 500px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.A {
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+button {
+    height: 60px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: rgb(185, 125, 185);
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+    color: lightcoral;
+    font-size: 40px;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.text {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input {
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.B {
+    height: 500px;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.a {
+    color: rgb(59, 59, 128);
+    text-align: justify;
+}
+
+.b {
+    color: lightcoral;
+    font-size: 50px;
+}
+
+h3 {
+    color: rgb(25, 25, 86);
+    font-size: 30px;
+}
+
+h4 {
+    color: lightcoral;
+    font-size: 25px;
+}
+
+.x {
+    color: rgb(25, 25, 86);
+    font-size: 15px;
+}
+
+.z {
+    color: rgb(25, 25, 86);
+    font-size: 15px;
+}
+
+p {
+    color: rgb(59, 59, 128);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.C {
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+
+.c {
+    color: rgb(59, 59, 128);
+    text-align: center;
+}
+
+pre {
+    font-size: 17px;
+    color: rgb(59, 59, 128);
+    padding: 10px;
+}
+
+.image2 {
+    height: 300px;
+    width: 100%;
+}
+
+.image2 img {
+    height: 300px;
+    width: 90%;
+}
+
+@media (min-width:480px) {
+    .logo {
+        height: 40px;
+        width: 30%;
+        margin-top: 0px;
+    }
+    .menu {
+        height: 70px;
+        width: 80%;
+        margin-top: 160px;
+        color: dark black;
+        font-size: 30px;
+    }
+    a {
+        list-style: none;
+        text-decoration: none;
+        float: left;
+        padding: 10px;
+        line-height: 50px;
+    }
+    li {
+        list-style: none;
+        float: left;
+        padding: 10px 20px;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    li:hover {
+        background-color: blue;
+        color: white;
+    }
+    .image1 {
+        height: 700px;
+        width: 100%;
+    }
+    .image1 img {
+        height: 500px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .main {
+        height: 500px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .A {
+        height: 400px;
+        width: 20%;
+        float: left;
+    }
+    button {
+        height: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: rgb(185, 125, 185);
+        margin-top: 15px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .info {
+        color: lightcoral;
+        font-size: 40px;
+        font-family: cursive;
+        font-size: 50px;
+    }
+    .text {
+        height: auto;
+        width: 100%;
+        margin-top: 20%;
+    }
+    input {
+        height: 40px;
+        width: 70%;
+        border-radius: 15px;
+    }
+    .B {
+        height: 500px;
+        width: 80%;
+        float: left;
+        text-align: center;
+    }
+    .a {
+        color: rgb(59, 59, 128);
+        text-align: justify;
+        margin-left: 60%;
+    }
+    .b {
+        color: lightcoral;
+        font-size: 50px;
+        margin-top: 120%;
+    }
+    h3 {
+        color: rgb(25, 25, 86);
+        font-size: 30px;
+    }
+    h4 {
+        color: lightcoral;
+        font-size: 25px;
+    }
+    .x {
+        color: rgb(25, 25, 86);
+        font-size: 15px;
+    }
+    .z {
+        color: rgb(25, 25, 86);
+        font-size: 15px;
+    }
+    p {
+        color: rgb(59, 59, 128);
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 50%;
+    }
+    .C {
+        height: 500px;
+        width: 40%;
+        float: left;
+    }
+    .c {
+        color: rgb(59, 59, 128);
+        text-align: center;
+        margin-left: 30%;
+    }
+    pre {
+        font-size: 10px;
+        color: rgb(59, 59, 128);
+        padding: 10px;
+    }
+    .image2 {
+        height: 300px;
+        width: 100%;
+    }
+    .image2 img {
+        height: 300px;
+        width: 90%;
+        margin-top: 30%;
+    }
+}
